@@ -11,7 +11,7 @@ export class User {
     email: string;
 
     @Column()
-    pasword: string;
+    password: string;
 
     @Column()
     created_at: Date;
